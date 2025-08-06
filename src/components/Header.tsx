@@ -14,21 +14,21 @@ const Header = () => {
         </div>
         
         <nav className="hidden md:flex items-center space-x-6">
-          <a href="#features" className="text-sm font-medium hover:text-primary transition-smooth">
+          <a href="#features" className="text-sm font-medium hover:text-primary transition-smooth animated-underline">
             Features
           </a>
-          <a href="#how-it-works" className="text-sm font-medium hover:text-primary transition-smooth">
+          <a href="#how-it-works" className="text-sm font-medium hover:text-primary transition-smooth animated-underline">
             How It Works
           </a>
-          <a href="#about" className="text-sm font-medium hover:text-primary transition-smooth">
+          <a href="#about" className="text-sm font-medium hover:text-primary transition-smooth animated-underline">
             About
           </a>
-          <a href="#contact" className="text-sm font-medium hover:text-primary transition-smooth">
+          <a href="#contact" className="text-sm font-medium hover:text-primary transition-smooth animated-underline">
             Contact
           </a>
         </nav>
 
-        <Button variant="default" className="shadow-elegant">
+        <Button variant="default" className="shadow-elegant hover-lift hover-glow">
           Coming Soon
         </Button>
       </div>

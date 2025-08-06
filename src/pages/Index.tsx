@@ -6,19 +6,38 @@ import HowItWorksSection from "@/components/HowItWorksSection";
 import TechStackSection from "@/components/TechStackSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import ScrollProgress from "@/components/ScrollProgress";
+import PageLoader from "@/components/PageLoader";
+import { useAOS } from "@/hooks/useAOS";
 
 const Index = () => {
+  useAOS();
+  
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
-      <HeroSection />
-      <AboutSection />
-      <FeaturesSection />
-      <HowItWorksSection />
-      <TechStackSection />
-      <ContactSection />
-      <Footer />
-    </div>
+    <>
+      <PageLoader />
+      <ScrollProgress />
+      <div className="min-h-screen bg-background">
+        <Header />
+        <HeroSection />
+        <div data-aos="fade-up">
+          <AboutSection />
+        </div>
+        <div data-aos="fade-up" data-aos-delay="100">
+          <FeaturesSection />
+        </div>
+        <div data-aos="fade-up" data-aos-delay="200">
+          <HowItWorksSection />
+        </div>
+        <div data-aos="slide-left">
+          <TechStackSection />
+        </div>
+        <div data-aos="zoom-in">
+          <ContactSection />
+        </div>
+        <Footer />
+      </div>
+    </>
   );
 };
 
