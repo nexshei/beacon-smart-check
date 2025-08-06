@@ -13,13 +13,13 @@ const HowItWorksSection = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-          {/* BLE Attendance */}
+          {/* Bluetooth Attendance */}
           <Card className="border-primary/10 hover:shadow-elegant transition-smooth group relative overflow-hidden">
             <CardContent className="p-8 text-center">
               <div className="w-16 h-16 bg-gradient-hero rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-smooth shadow-glow">
                 <Bluetooth className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-4">BLE Attendance</h3>
+              <h3 className="text-xl font-semibold mb-4">Bluetooth Attendance</h3>
               <div className="space-y-3 text-left">
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 rounded-full bg-primary"></div>

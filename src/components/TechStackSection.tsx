@@ -16,7 +16,7 @@ const TechStackSection = () => {
     {
       category: "Mobile",
       icon: Code2,
-      items: ["React Native BLE", "Native Navigation", "Push Notifications"]
+      items: ["React Native Bluetooth", "Native Navigation", "Push Notifications"]
     },
     {
       category: "Security",
