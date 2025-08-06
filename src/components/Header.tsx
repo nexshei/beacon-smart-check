@@ -10,7 +10,7 @@ const Header = () => {
             alt="TallyCheck Logo" 
             className="h-8 w-8"
           />
-          <span className="text-2xl font-bold text-primary">TallyCheck</span>
+          <span className="text-2xl font-bold text-primary">TALLYCHECK LIMITED</span>
         </div>
         
         <nav className="hidden md:flex items-center space-x-6">

@@ -13,7 +13,7 @@ const Footer = () => {
                 alt="TallyCheck Logo" 
                 className="h-6 w-6"
               />
-              <span className="text-xl font-bold text-primary">TallyCheck</span>
+              <span className="text-xl font-bold text-primary">TALLYCHECK LIMITED</span>
             </div>
             <p className="text-muted-foreground mb-4 max-w-md">
               Revolutionizing student attendance tracking with smart Bluetooth and QR technology for Kenyan universities.
@@ -49,7 +49,7 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-sm text-muted-foreground">
-            © 2025 TallyCheck. All rights reserved.
+            © 2025 TALLYCHECK LIMITED. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm">
             <a href="#" className="text-muted-foreground hover:text-primary transition-smooth">Privacy Policy</a>
