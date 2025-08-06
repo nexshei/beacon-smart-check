@@ -9,7 +9,7 @@ const AboutSection = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">About TallyCheck</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              TallyCheck is an attendance automation platform designed for universities. It simplifies how students check into class using Bluetooth beacons or QR codes, helping lecturers save time and institutions get accurate records.
+              TallyCheck is an attendance automation platform designed for Kenyan universities. It revolutionizes student check-ins using Bluetooth technology and QR codes, eliminating classroom disruptions while providing real-time data and timestamped records for accurate attendance tracking.
             </p>
           </div>
           

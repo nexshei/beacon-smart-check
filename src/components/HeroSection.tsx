@@ -60,7 +60,7 @@ const HeroSection = () => {
             transition={{ delay: 0.8, duration: 0.8 }}
           >
             {[
-              { icon: Bluetooth, text: "Bluetooth Beacons" },
+              { icon: Bluetooth, text: "Bluetooth Technology" },
               { icon: QrCode, text: "QR Code Scanning" },
               { icon: Clock, text: "Real-time Tracking" }
             ].map((item, index) => (

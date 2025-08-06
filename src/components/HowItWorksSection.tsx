@@ -23,7 +23,7 @@ const HowItWorksSection = () => {
               <div className="space-y-3 text-left">
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 rounded-full bg-primary"></div>
-                  <span className="text-sm text-muted-foreground">App detects beacon</span>
+                  <span className="text-sm text-muted-foreground">App detects Bluetooth signal</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 rounded-full bg-primary"></div>
@@ -101,7 +101,7 @@ const HowItWorksSection = () => {
               <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white font-semibold mb-2 mx-auto">
                 2
               </div>
-              <p className="text-sm text-muted-foreground">Beacon detected or QR scanned</p>
+              <p className="text-sm text-muted-foreground">Bluetooth detected or QR scanned</p>
             </div>
             <ArrowRight className="h-6 w-6 text-primary hidden md:block" />
             <div className="text-center">
