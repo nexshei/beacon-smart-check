@@ -3,7 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
-import TechStackSection from "@/components/TechStackSection";
+
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import ScrollProgress from "@/components/ScrollProgress";
@@ -28,9 +28,6 @@ const Index = () => {
         </div>
         <div data-aos="fade-up" data-aos-delay="200">
           <HowItWorksSection />
-        </div>
-        <div data-aos="slide-left">
-          <TechStackSection />
         </div>
         <div data-aos="zoom-in">
           <ContactSection />
